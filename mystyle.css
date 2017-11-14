@@ -3,6 +3,10 @@ You can add your own CSS here.
 
 Click the help icon above to learn more.
 */
+.row:not(footer) {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 #menu_my_bootstrap_menu_settings_top_menu {
 font-size: 16px;
@@ -10,16 +14,17 @@ background-color: black;
 }
 
 @media (min-width: 768px){
-.navbar-nav>li>a {
-    padding-top: 22px;
-    padding-bottom: 22px;
-}
+	.navbar-nav>li>a {
+	    padding-top: 22px;
+	    padding-bottom: 22px;
+	}
 }
 .container-fluid {
 	line-height:3;
 }
 
-.navbar-brand { line-height:32px;
+.navbar-brand { 
+	line-height: 40px;
 	text-shadow: 0;
 	font-weight: bold;
 }
@@ -59,16 +64,18 @@ background-color: black;
 
 
 
-:hov
+/*:hov
 
 .cls
 
 element.style {
-}
+}*/
 
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>..entry-content, .entry-summary {
     margin: 1.5em 0 0;
-}navbar-header {
+}
+
+.navbar-header {
     background-color: black;
     margin-right: 0;
 	margin-left: 0;
@@ -125,6 +132,7 @@ element.style {
 	font-size: 14px;
 	padding: 50px;
 }
+
 #sis_upcoming_events-2 {
 	text-align:center;
 }
@@ -136,6 +144,27 @@ element.style {
 
 form {
     text-align: center;   
+}
+
+.mask {
+	content: ' ';
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    top: 33px;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+   /* pointer-events: none;*/
+    filter: alpha(opacity=0);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    -ms-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    transition: all ease .5s;
+    /* background-color: rgba(37,37,37,0.7); */
+    height: 200px;
+    margin: 35px;
 }
 
 .mask:hover {
