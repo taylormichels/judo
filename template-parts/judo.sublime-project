@@ -1,0 +1,18 @@
+{
+	"folders":
+	[
+		{
+			"path": "/var/www/html/wp-content/themes/judo"
+		},
+		{
+			"path": "/var/www/html"
+		}
+	],
+	"settings":
+	{
+		"xdebug":
+		{
+			"url": "http://localhost/"
+		}
+	}
+}
