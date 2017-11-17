@@ -21,18 +21,18 @@
 		</div><!-- .site-info -->
 		<div class=col-md-2>
 		</div>
-		<div class=col-md-4 style="text-align:center; margin-bottom:12px">
+		<div class=col-md-4 id="footer-contact">
 			<div style="font-weight:bold; margin-bottom: 3px">YWCA Princeton</div>
 			59 Paul Robeson Place<br /> Princeton, NJ 08540<br />
 			<br />
-			(609) 497-2100
+			<b>(609) 497-2100</b>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-4" id="footer-schedule">
 			<b>Monday & Wednesday</b><br />
-				<div style="margin-left:62px; margin-top:3px">13 & under   &nbsp;&nbsp;&nbsp;&nbsp;6:30 – 7:30PM  <br />Open Class &nbsp;&nbsp;&nbsp;7:30-9:00 PM</div>
+				<div style="margin-top:3px">13 & under   &nbsp;&nbsp;&nbsp;&nbsp;6:30 – 7:30PM  <br />Open Class &nbsp;&nbsp;&nbsp;7:30-9:00 PM</div>
 				<br />
 			<b>Saturday</b><br />
-				<div style="margin-left:62px; margin-top:3px">Family Judo   &nbsp;&nbsp;&nbsp;&nbsp;8:00- 8:45AM  <br />Open Class &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:45-10:00AM</div>		     
+				<div style="margin-top:3px">Family Judo   &nbsp;&nbsp;&nbsp;&nbsp;8:00- 8:45AM  <br />Open Class &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:45-10:00AM</div>		     
 		</div>
 		<div class=col-md-2></div>
 	</footer><!-- #colophon -->
