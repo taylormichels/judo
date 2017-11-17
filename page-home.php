@@ -36,7 +36,7 @@ Judo is an <a href="http://www.olympic.org/uk/sports/programme/index_uk.asp?Spo
 <div class="col-md-4">
 <div>
 <h4>Instructors</h4>
-<div class="mask"></div>
+<div class="mask maskInit"></div>
 <p style="background-image: url('https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/14732297_10153791064636621_72074113359492918_n.jpg?oh=c2b5d1624cfca4a22aa0e51aa0847b58&amp;oe=5A9C46E6');"><img class="img-responsive" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/14732297_10153791064636621_72074113359492918_n.jpg?oh=c2b5d1624cfca4a22aa0e51aa0847b58&amp;oe=5A9C46E6" />
 </p>
 
@@ -45,7 +45,7 @@ Judo is an <a href="http://www.olympic.org/uk/sports/programme/index_uk.asp?Spo
 <div class="col-md-4">
 <div>
 <h4>Classes and Rates</h4>
-<div class="mask"></div>
+<div class="mask maskInit"></div>
 <p style="background-image: url('https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/1506754_911869155504937_3889247119073319495_n.jpg?oh=5c355016b9073c440ea55178aedb4e19&amp;oe=5A6BE492');"><img class="img-responsive" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/1506754_911869155504937_3889247119073319495_n.jpg?oh=5c355016b9073c440ea55178aedb4e19&amp;oe=5A6BE492" /></p>
 
 </div>
@@ -53,7 +53,7 @@ Judo is an <a href="http://www.olympic.org/uk/sports/programme/index_uk.asp?Spo
 <div class="col-md-4">
 <div>
 <h4>What is Judo?</h4>
-<div class="mask"></div>
+<div class="mask maskInit"></div>
 <p style="background-image: url('https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/184788_137580196308370_4195328_n.jpg?oh=e9dcfc5062271c847a3b3fb2b294fccf&amp;oe=5AA26288');"><img class="img-responsive" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/184788_137580196308370_4195328_n.jpg?oh=e9dcfc5062271c847a3b3fb2b294fccf&amp;oe=5AA26288" /></p>
 
 </div>
@@ -62,7 +62,6 @@ Judo is an <a href="http://www.olympic.org/uk/sports/programme/index_uk.asp?Spo
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
 <?php
 get_sidebar();
 get_footer();

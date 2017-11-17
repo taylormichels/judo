@@ -137,7 +137,15 @@ form {
     transition: all ease .5s;
     /* background-color: rgba(37,37,37,0.7); */
     height: 200px;
-    margin: 35px;
+    margin: 35px;   
+}
+
+.maskInit {
+	background-color: rgba(37,37,37,0.7);
+}
+
+.myFadeIn {
+	opacity: 0;
 }
 
 .mask:hover {
