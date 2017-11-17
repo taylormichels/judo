@@ -129,6 +129,8 @@ function judo_scripts() {
 
 	wp_enqueue_script( 'bootstrap_js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js');
 
+	wp_enqueue_script( 'myjquery', get_template_directory_uri().'/myjquery.js');
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}

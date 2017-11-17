@@ -144,6 +144,25 @@ form {
 	background-color: rgba(37,37,37,0.7);
 }
 
+.wpcf7 {
+	margin: 0 auto;
+	max-width: 490px;
+}
+ul.navbar-right {
+	display: none;
+}
+
+.container .row { 
+	opacity: 0; 
+ -webkit-transition: opacity 1s ease-in;
+       -moz-transition: opacity 1s ease-in;
+        -ms-transition: opacity 1s ease-in;
+         -o-transition: opacity 1s ease-in;
+            transition: opacity 1s ease-in;
+}
+
+.container .row.fadeIn {opacity: 1; }
+
 @media (min-width: 992px) {
 	.imageMenu p {
 		    width: 350px;
@@ -157,6 +176,10 @@ form {
 
 	#footer-contact { text-align: right; }
 	#footer-schedule { text-align: left; }
+
+	.wpcf7 {
+		margin: 0;
+	}
 }
 
 @media (min-width: 768px) {
