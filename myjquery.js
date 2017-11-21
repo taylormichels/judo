@@ -23,7 +23,7 @@ jQuery(document).ready(function() {
     	//if (counter){
     		/* Check the location of each desired element */
 	        jQuery('.mask').each( function(i){            
-	            var bottom_of_object = jQuery(this).offset().top + jQuery(this).outerHeight();
+	            var bottom_of_object = jQuery(this).offset().top + (jQuery(this).outerHeight() / 2);
 	            var bottom_of_window = jQuery(window).scrollTop() + jQuery(window).height();
 	            
 	            /* If the object is completely visible in the window, fade it it */

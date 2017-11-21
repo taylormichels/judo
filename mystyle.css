@@ -9,7 +9,7 @@ Click the help icon above to learn more.
 }
 
 #menu_my_bootstrap_menu_settings_top_menu {
-	font-size: 16px;
+	font-size: 18px;
 	background-color: black;
 }
 
@@ -25,9 +25,10 @@ Click the help icon above to learn more.
 }
 
 .navbar-brand { 
-	line-height: 40px;
+	line-height: 25px;
 	text-shadow: 0;
 	font-weight: bold;
+	height: auto;
 }
 
 .navbar { 
@@ -47,6 +48,7 @@ Click the help icon above to learn more.
 
 .navbar-default .navbar-brand {
     color: #eb2a00;
+    padding: 26px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -171,6 +173,16 @@ ul.navbar-right {
 
 .container .row.fadeIn {opacity: 1; }
 
+.container .col-md-6:last-child {
+	margin-top: 30px;
+}
+
+#searchform input[type="text"] {
+	 border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 5px;
+}
+
 @media (min-width: 992px) {
 	.imageMenu p {
 		    width: 350px;
@@ -188,6 +200,10 @@ ul.navbar-right {
 	.wpcf7 {
 		margin: 0;
 	}
+
+	.container .col-md-6:last-child {
+		margin-top: 0;
+	}
 }
 
 @media (min-width: 768px) {
@@ -197,7 +213,6 @@ ul.navbar-right {
 	}	
 
 	.navbar-nav>li>a {
-	    padding-top: 22px;
-	    padding-bottom: 22px;
+	    padding: 26px 22px;	   
 	}	
 }
