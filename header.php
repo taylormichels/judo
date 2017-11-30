@@ -40,7 +40,14 @@
 			<?php
 			endif; ?>
 		</div>--><!-- .site-branding -->
-		
+		<div id="socialhead" style="background-color: #333;height: 30px;text-align: right; cursor:pointer">
+			<img src="https://rohitink.com/wp-content/uploads/2013/09/sociocons-1024x748.png" style="
+			    height: 70px;			
+			    overflow: hidden;			    
+			    top: 6px;
+			    right: 20px;
+			    position: relative;">
+		</div>
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'judo' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?> -->

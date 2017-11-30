@@ -178,10 +178,23 @@ ul.navbar-right {
 }
 
 #searchform input[type="text"] {
-	 border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
     padding: 5px;
+    border-radius: 10px;
 }
+
+#searchform button {
+    border: 0;
+    z-index: 3;
+    background: transparent;
+}
+
+.input-group-btn {
+	position: absolute;
+    left: 230px;
+    top: 3px;
+}
+
+#socialhead { display: none; }
 
 @media (min-width: 992px) {
 	.imageMenu p {
@@ -193,6 +206,8 @@ ul.navbar-right {
 	.imageMenu p img {
 		display: none;
 	}
+
+	#socialhead { display: block; }
 
 	#footer-contact { text-align: right; }
 	#footer-schedule { text-align: left; }
