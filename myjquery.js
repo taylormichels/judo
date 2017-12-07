@@ -33,6 +33,14 @@ jQuery(document).ready(function() {
 	                //counter--;                    
 	            }            
 	        });     	
-    	//}           
+    	//}  
+
+    	// fixed header
+    	if (jQuery(window).scrollTop() >= 100) {
+	       jQuery('#menu_my_bootstrap_menu_settings_top_menu').addClass('fixed-header');
+	    }
+	    else {
+	       jQuery('#menu_my_bootstrap_menu_settings_top_menu').removeClass('fixed-header');
+	    }         
     });    
 });

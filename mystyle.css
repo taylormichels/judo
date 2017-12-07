@@ -12,6 +12,31 @@ Click the help icon above to learn more.
 	font-size: 18px;
 	background-color: black;
 }
+/* fixed header */
+.fixed-header .navbar-brand {
+	line-height: 0;
+	padding: 21px !important;
+	font-size: 18px;
+}
+
+.fixed-header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    transition: top 1s linear;
+}
+
+.fixed-header .navbar-nav>li>a {
+    padding: 15px;
+    line-height: 10px;
+}
+.fixed-header .navbar-nav > li > .dropdown-menu {
+    margin-top: 14px;
+}
+.fixed-header .navbar { min-height: 0; }
+.fixed-header .navbar-right { display: none; }
+/* end fixed header */
 
 #footer-contact {
 	text-align:center; 
@@ -23,6 +48,19 @@ Click the help icon above to learn more.
 .container-fluid {
 	line-height:3;
 }
+
+.dropdown-menu { padding: 0; }
+
+.dropdown-menu > .active > a {
+	color: #eb2a00;
+	background-color: #000;
+}
+
+#responsive-menu-container #responsive-menu ul.responsive-menu-submenu-depth-1 a.responsive-menu-item-link {
+    padding-left: 50% !important;
+    text-align: left;
+}
+
 
 .navbar-brand { 
 	line-height: 25px;
@@ -73,6 +111,10 @@ Click the help icon above to learn more.
     background-color: black;
     margin-right: 0;
 	margin-left: 0;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    margin-top: 50px;
 }
 
 .entry-content, .entry-summary {
