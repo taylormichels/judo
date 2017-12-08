@@ -12,7 +12,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 }
 ?>
 
-<aside id="secondary" class="widget-area" role="complementary">
+<aside id="secondary" class="widget-area container" role="complementary">
 	<div class="row">
 		<div class="col-md-2"></div>
 		<div class="col-md-4">

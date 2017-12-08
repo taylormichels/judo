@@ -62,7 +62,8 @@
 				);
 			?>
 		</nav><!-- #site-navigation -->
-		<!-- <img class="img-responsive" style="width:100%" src="<?php echo( get_header_image() ); ?>" 
-			alt="<?php echo( get_bloginfo( 'title' ) ); ?>" />	 -->		
+		<?php if (is_front_page()) {			
+			echo do_shortcode( '[neo_carousel_shortcode id="71" interval="2500"]' );
+		}?>					
 	</header><!-- #masthead -->
-	<div id="content" class="site-content">
+	<div id="content" class="site-content container-fluid">

@@ -17,7 +17,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<?php echo do_shortcode('[neo_carousel_shortcode id="71" interval="2500"]'); ?>
+			
 <div class="container">
 <div class="row">
 <div class="col-md-6">

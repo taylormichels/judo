@@ -45,8 +45,10 @@ Click the help icon above to learn more.
 
 #footer-schedule { text-align: center; }
 
-.container-fluid {
+.navbar .container-fluid {
 	line-height:3;
+ 	padding-right: 0;
+  	padding-left: 0;  
 }
 
 .dropdown-menu { padding: 0; }
@@ -77,11 +79,6 @@ Click the help icon above to learn more.
 
 .navbar-header { 
     background-color: black;
-}
-
-.container-fluid {
- 	padding-right: 0;
-  	padding-left: 0;  
 }
 
 .navbar-default .navbar-brand {

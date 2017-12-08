@@ -1,4 +1,4 @@
-[neo_carousel_shortcode id="71" interval="2500"]
+<!-- [neo_carousel_shortcode id="71" interval="2500"]
 <div class="container">
 <div class="row">
 <div class="col-md-6">
@@ -57,3 +57,4 @@ Judo is an <a href="http://www.olympic.org/uk/sports/programme/index_uk.asp?Spo
 </div>
 </div>
 </div>
+ -->
