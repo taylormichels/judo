@@ -7,7 +7,7 @@
  * @package Judo
  */
 
-if ( ! is_active_sidebar( 'sidebar-1' ) ) {
+if ( ! is_active_sidebar( 'sidebar-1' ) || !is_front_page() ) {
 	return;
 }
 ?>
@@ -19,7 +19,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 			<?php dynamic_sidebar( 'sidebar-1' ); ?>
 		</div>
 		<div class="col-md-4">
-		<?php echo do_shortcode( '[contact-form-7 id="123" title="Contact form 1"]' ); ?>					
+			<?php echo do_shortcode( '[contact-form-7 id="123" title="Contact form 1"]' ); ?>		
 		</dv>
 		<div class="col-md-2"></div>
 	</div>	

@@ -1,5 +1,5 @@
 jQuery(function() {
-	jQuery('.container > .row').addClass('fadeIn');
+	jQuery('.container > .row, header .carousel').addClass('fadeIn');
 });
 
 jQuery(document).ready(function() {
