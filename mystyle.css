@@ -3,20 +3,10 @@ You can add your own CSS here.
 
 Click the help icon above to learn more.
 */
-
-html { 
-	min-height:100%; 
-	position: relative;
-}
-
-body {
-    margin: 0 0 220px; /* bottom = footer height */
- }
-
- input[type="submit"] {
+input[type="submit"] {
  	font-size: 12px;
- }
-
+}
+ 
  header .carousel  { opacity: 0; }
 
 .row:not(footer) {
@@ -161,9 +151,6 @@ body {
     color: white;
 	font-size: 14px;
 	padding: 50px;
-	position: relative;
-	width: 100%;
-	bottom: 0;
 }
 
 #sis_upcoming_events-2 {
@@ -220,7 +207,7 @@ ul.navbar-right {
 	display: none;
 }
 
-.container .row, header .carousel  { 
+.container .row, header .carousel { 
 	opacity: 0; 
  -webkit-transition: opacity 1s ease-in;
        -moz-transition: opacity 1s ease-in;
@@ -287,9 +274,5 @@ ul.navbar-right {
 
 	.navbar-nav>li>a {
 	    padding: 26px 22px;	   
-	}
-
-	.site-footer {
-		position: absolute;
 	}	
 }
